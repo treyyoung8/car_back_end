@@ -1,10 +1,9 @@
-// Update with your config settings.
 
 module.exports = {
 
   development: {
     client: 'pg',
-    connection: 'postgresql://localhost/<db_name>'
+    connection: 'postgresql://localhost/cars'
     },
     
     production: {

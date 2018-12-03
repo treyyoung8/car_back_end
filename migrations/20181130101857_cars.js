@@ -8,7 +8,7 @@ exports.up = function(knex, Promise) {
         car.integer('horsepower')
         car.integer('torque')
         car.decimal('top_speed')
-        car.integer('years_made')
+        car.string('years_made')
     })
 };
 
