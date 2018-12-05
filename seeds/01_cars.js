@@ -119,6 +119,24 @@ exports.seed = function(knex, Promise) {
           torque: 1180,
           top_speed: 249,
           years_made: "2016-2019"
+        },
+        {
+          make: "Noble",
+          model: "M600",
+          nationality: "British",
+          horsepower: 650,
+          torque: 604,
+          top_speed: 225,
+          years_made: "2010-2019"
+        },
+        {
+          make: "Toyota",
+          model: "Prius First Gen",
+          nationality: "Japanese",
+          horsepower: 72,
+          torque: 85,
+          top_speed: 99.4,
+          years_made: "1997-2001"
         }
       ]);
     });
